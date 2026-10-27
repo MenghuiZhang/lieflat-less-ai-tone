@@ -14,7 +14,7 @@
 --semantic 可选：detect.py --candidates 抽取的候选经 Claude 按
 references/semantic-criteria.md 判读后的 JSON（条目带 label/confidence/reason）。
 
-纯标准库，无外部依赖。HTML 版沿用前后对照页的标红样式（.chg/.ins 红、.del 灰删除线）；
+纯标准库，无外部依赖。
 md 版对照约定：~~灰色删除~~ = 被改掉原文，**加粗** = 改后新文字。
 """
 import argparse
